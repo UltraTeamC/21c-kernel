@@ -1,1 +1,1 @@
-#include "../21c-kernel/Header/Terminal/terminal.h"
+#include "./../../../21c-kernel/Header/Terminal/terminal.h"
