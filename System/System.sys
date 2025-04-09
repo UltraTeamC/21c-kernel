@@ -1,0 +1,26 @@
+System(data,path,run.0) {
+    func(data.1):= {
+        version := 0.11
+        build := 123
+        User := 2
+    };
+    func(path,FileSystem.1) := {
+        System := [a]:User/Kernel/21c-Kernel/System
+        Terminal := [a]:User/Kernel/21c-Kernel/Terminal
+        func(FileSystem,list.2) := {
+            21c-File
+        };
+    };
+    func(run.1) := {
+        ISO C := 17
+        Assembly := armv7
+    }
+}
+User(data,path)[0] {
+    func path := {
+        none
+    };
+    func data := {
+        none
+    };
+}
