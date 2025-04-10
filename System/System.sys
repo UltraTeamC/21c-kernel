@@ -8,13 +8,13 @@ System(data,path,run.0) {
         System := [a]:User/Kernel/21c-Kernel/System
         Terminal := [a]:User/Kernel/21c-Kernel/Terminal
         func(FileSystem,list.2) := {
-            21c-File
+            list :=[21c-File]
         };
     };
     func(run.1) := {
         ISO C := 17
         Assembly := armv7
-    }
+    };
 }
 User(data,path)[0] {
     func path := {
