@@ -1,34 +1,17 @@
-// System(data,path.0) {
-//     func(data.1):= {
-//         version := 0.11
-//         build := 123
-//         User := 2
-//     };
-//     func(path,FileSystem.1) := {
-//         System := [a]:User/Kernel/21c-Kernel/System
-//         Terminal := [a]:User/Kernel/21c-Kernel/Terminal
-//         func(FileSystem,list.2) := {
-//             list :=[21c-File]
-//         };
-//     };
-//     func(run.1) := {
-//         ISO C := 17
-//         Assembly := armv7
-//     };
-// }
-// User(data,path)[0] {
-//     func path := {
-//         none
-//     };
-//     func data := {
-//         none
-//     };
-// }
+#include <stdio.h>
+
+#define PATH_MAX 256
+#define PATH_MIN 1
+
+int main() {
+    printf(System);
+    return 0;
+}
 void System(data,path) {
+    // System Data:
     float version   = 0.11;
-    char  build[10] = "0.11.0" 
-    void path() {
-        char System[] = "[a]:User/Kernel/21c-Kernel/System";
-        char Terminal[] = "[a]:User/Kernel/21c-Kernel/Terminal";
-    }
+    char  build[10] = "0.11.0"
+    // System Path: 
+    char System[PATH_MAX] = "[a]:User/Kernel/21c-Kernel/System";
+    char Terminal[PATH_MAX] = "[a]:User/Kernel/21c-Kernel/Terminal";
 }
