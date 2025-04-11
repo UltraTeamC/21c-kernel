@@ -8,9 +8,9 @@
 
 int main() {
     printf("Ultrasoft[0.0.1]");
-    printf(ERROR_001)
-    printf(ERROR_002)
-    printf(ERROR_003)
+    printf(ERROR_001);
+    printf(ERROR_002);
+    printf(ERROR_003);
     return 0;
 }
 // void System(data,path) {
