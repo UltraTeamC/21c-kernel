@@ -7,10 +7,11 @@
 #define ERROR_003 "Vical."
 
 int main() {
-    printf("Ultrasoft[0.0.1]");
-    printf(ERROR_001);
-    printf(ERROR_002);
-    printf(ERROR_003);
+    printf("Ultrasoft[0.0.1]\n");
+    // Debug
+    printf("%f\n",ERROR_001);
+    printf("%f\n",ERROR_002);
+    printf("%f\n",ERROR_003);
     return 0;
 }
 // void System(data,path) {
