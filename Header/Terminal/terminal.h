@@ -1,4 +1,10 @@
-#include "../21c-kernel/Header/stdio.h"
+/*
+
+    Copyright (c) 2025 Ultrasoft. All rights reserved.
+    Unauthorized use, reproduction, or distribution is prohibited.
+
+*/
+#include "../definition.h"
 
 int main() {
     int version = 0;
