@@ -6,7 +6,7 @@
 */
 
 #include <stdio.h>
-
+#include <stdbool.h>
 
 /* System Path */
 #define PATH_MAX 512
@@ -16,7 +16,6 @@
 #define SYSTEM[PATH_MAX]   "(A):System/"
 #define HERDER[PATH_MAX]   "(A):Herder/"
 #define TERMINAL[PATH_MAX] "(A):Terminal/"
-
 
 /* System Error */
 #define ERROR_001 "System crash."
