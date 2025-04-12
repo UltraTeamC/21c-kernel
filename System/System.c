@@ -7,12 +7,12 @@
 
 #include <stdio.h>
 #include "../Header/definition.h"
+#include "../Header/var.h"
+
 int main() {
     printf("Ultrasoft[0.0.1]\n");
+    System_status = false;
     return 0;
-    System_status = false
-    System_Error_Code  = 1
-    System_Error_
 }
 void System_Error() {
     while (5>3):{
@@ -20,15 +20,15 @@ void System_Error() {
         {
             if (System_Error = 1) {
                 printf("The system has crashed with the error code:%s\n",ERROR_001);
-                return 1;
+                return "ERROR = 1";
             }
             else if (System_Error = 2) {
                 printf("The system has crashed with the error code:%s\n",ERROR_002);
-                return 2;
+                return "ERROR = 2";
             }
             else {
                 printf("The system has crashed with the error code:%s\n",ERROR_003);
-                return 3;
+                return "ERROR = 3";
             }            
         }
     }
